@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="pitownshipEntities-Web.config Connection String" description="pitownshipEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/Twitter.csdl|res://*/Twitter.ssdl|res://*/Twitter.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=den1.mssql1.gear.host;initial catalog=pitownship;persist security info=True;user id=pitownship;password=Ie11h404Xm?-;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Phegde\\source\\repos\\PRDProj\\PRDProj\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='pitownshipEntities']/@connectionString" />
+  </parameter>
+</parameters>

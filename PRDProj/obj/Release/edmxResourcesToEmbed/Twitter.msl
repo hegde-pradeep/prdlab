@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="pitownshipModelStoreContainer" CdmEntityContainer="pitownshipEntities">
+    <EntitySetMapping Name="PRDLABs">
+      <EntityTypeMapping TypeName="pitownshipModel.PRDLAB">
+        <MappingFragment StoreEntitySet="PRDLAB">
+          <ScalarProperty Name="DTANDTIME" ColumnName="DTANDTIME" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="Text2" ColumnName="Text2" />
+          <ScalarProperty Name="Text1" ColumnName="Text1" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
